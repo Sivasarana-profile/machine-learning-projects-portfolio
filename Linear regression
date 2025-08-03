@@ -1,0 +1,28 @@
+Objective:
+Estimate the Beta (systematic risk) and Alpha (excess return) of Apple Inc. (AAPL) stock relative to the market (S&P 500) using the Capital Asset Pricing Model (CAPM).
+
+Goal:
+Quantify Apple’s sensitivity to market movements (Beta).
+Determine whether Apple has historically delivered returns above/below what CAPM predicts (Alpha).
+
+Method:
+
+Compute daily returns for Apple (AAPL) and the S&P 500 index (market).
+Use U.S. Treasury 3-Month T-Bill rate as the risk-free rate (Rf).
+
+Apply linear regression:
+
+R_apple - Risk_free = Beta(R_{S&P500}-Risk_free) + Alpha + ϵ
+
+R_apple  → Apple’s daily return (percentage change in price).
+Risk_free → Risk-free rate (typically 3-month U.S. Treasury Bill rate).
+R_{S&P500} → Market return (S&P 500 index return).
+(R_apple - Risk_free)  → Apple’s excess return (how much it earned above a risk-free investment).
+(R_{S&P500} - Risk_free) → Market’s excess return.
+α (Alpha) → Measures Apple’s performance independent of the market (stock’s ability to beat the market).
+β (Beta) → Measures how sensitive Apple’s returns are to market movements.
+ϵ → Error term (captures random noise not explained by the model).
+
+Evaluation Metric:
+Coefficient interpretation (Beta & Alpha)
+R² score of regression to see model fit.
