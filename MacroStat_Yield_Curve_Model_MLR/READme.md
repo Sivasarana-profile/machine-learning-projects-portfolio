@@ -23,8 +23,8 @@ The approach is based on **Multiple Linear Regression (MLR)**, a foundational st
 
 ##  Data Sources
 The project uses publicly available macroeconomic and bond market datasets, such as:
-- **FRED** (Federal Reserve Economic Data) – Inflation, GDP growth, unemployment rate, policy rate.
-- **US Treasury** – Daily Treasury yield curve rates.
+- **FRED** (Federal Reserve Economic Data) – Inflation, GDP growth, unemployment rate, policy rate, Daily Treasury yield curve rates.
+  
 ---
 
 ##  Methodology
