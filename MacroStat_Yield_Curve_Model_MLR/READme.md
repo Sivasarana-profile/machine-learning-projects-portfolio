@@ -8,7 +8,6 @@ This project aims to **predict changes in government bond yields** using macroec
 - Central bank policy rate
 - Industrial production
 
-
 The approach is based on **Multiple Linear Regression (MLR)**, a foundational statistical technique in quantitative finance, widely used by fixed-income quants to model the relationship between macro variables and the term structure of interest rates.
 
 ---
@@ -17,7 +16,6 @@ The approach is based on **Multiple Linear Regression (MLR)**, a foundational st
 - Model the relationship between macroeconomic indicators and government bond yields.
 - Predict shifts in the **yield curve** across short-, medium-, and long-term maturities.
 - Evaluate model performance using out-of-sample testing.
-- Compare predictive accuracy with a naïve benchmark (e.g., last-period yield persistence).
 
 ---
 
